@@ -1,7 +1,7 @@
-import { CalculoPesadoApp } from "./components/CalculoPesadoComponent";
-import { CounterApp } from "./components/CounterComponent";
-import { FetchApp } from "./components/FetchComponent";
-import { FormsApp } from "./components/FormsComponent";
+import { CalculoPesadoComponent } from "./components/CalculoPesadoComponent";
+import { CounterComponent } from "./components/CounterComponent";
+import { FetchComponent } from "./components/FetchComponent";
+import { FormsComponent } from "./components/FormsComponent";
 
 export const HooksApp = () => {
   return (
@@ -9,7 +9,7 @@ export const HooksApp = () => {
       <h1>Aplicacion de Hooks</h1>
       <hr />
 
-      <CalculoPesadoApp />
+      <CalculoPesadoComponent />
     </>
   );
 };
