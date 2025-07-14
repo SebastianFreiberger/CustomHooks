@@ -3,7 +3,7 @@ import { useFetch } from "../hooks/useFetch";
 
 const url = "https://jsonplaceholder.typicode.com/users";
 
-export const FetchApp = () => {
+export const FetchComponent = () => {
   const { data, isLoading, error, fetchData } = useFetch();
 
   useEffect(() => {
