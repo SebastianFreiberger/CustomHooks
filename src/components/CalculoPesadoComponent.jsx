@@ -21,7 +21,7 @@ export const CalculoPesadoApp = () => {
       <h2>Calculos: </h2>
       {/* <h4>El cálculo es: {getCalculo(numList)}</h4> */}
       <h4>El cálculo es: {memorizedValue}</h4>
-      {show && <p>Calculo si quiero</p>}
+      {show && <p>Calculo si quiero!!</p>}
 
       <button className="btn btn-info" onClick={() => setShow(!show)}>
         {show ? "Ocultar cálculo" : "Mostrar cálculo"}
